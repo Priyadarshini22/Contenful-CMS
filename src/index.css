@@ -349,7 +349,7 @@ PROJECTS
 display: block;
   background-color: white;
 
-  
+  transition: var(--transition);
 
 }
 
@@ -375,4 +375,9 @@ display: block;
 }
 
 
+}
+
+.project:hover{
+  transform:scale(1.05);
+  box-shadow:var(--shadow-3);
 }
